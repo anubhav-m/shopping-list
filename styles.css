@@ -15,3 +15,8 @@ font-size: 12px;
 margin-left: 20px;
 color: #666;
 }
+
+.right ul{
+    list-style-type: none;
+    padding-left: 10px;
+}
