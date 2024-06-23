@@ -8,12 +8,26 @@
     <script src="./script.js" defer></script>
   </head>
   <body>
-    <h1>My shopping list</h1>
-    <div>
-      <label for="item">Enter a new item:</label>
-      <input type="text" name="item" id="item">
-      <button>Add item</button>
+
+    <div class="left">
+      <h1>My shopping list</h1>
+      <div>
+        <label for="item">Enter a new item:</label>
+        <input type="text" name="item" id="item">
+        <button class="add">Add item</button>
+        <button class="save">Save list</button>
+      </div>
+      <ul></ul>
     </div>
-    <ul></ul>
+
+    <div class="right">
+      <h1>Shopping list search</h1>
+      <div>
+        <label for="item">Search an item:</label>
+        <input type="text" name="item" id="item">
+      </div>
+      <ul></ul>
+    </div>
+
   </body>
 </html>

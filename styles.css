@@ -1,3 +1,10 @@
+body{
+    display: flex;
+}
+
+.left{
+    margin-right: auto;
+}
 
 li {
 margin-bottom: 15px;
